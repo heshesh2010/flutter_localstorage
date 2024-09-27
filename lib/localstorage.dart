@@ -1,7 +1,5 @@
 import './src/interface.dart';
-import './src/localstorage_io.dart'
-    if (dart.library.html) './src/localstorage_web.dart';
-
+import './src/localstorage_io.dart';
 export './src/interface.dart';
 
 bool _initialized = false;
